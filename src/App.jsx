@@ -1,11 +1,15 @@
 
 
+import { Nav } from "./components/common/nav"
+import { Main } from "./components/common/Main"
 function App() {
   
 
   return (
     <>
-      <h1>mi portafolio</h1>
+     <Nav></Nav>
+     <Main></Main>
+
     </>
   )
 }
