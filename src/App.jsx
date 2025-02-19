@@ -1,13 +1,13 @@
 
 
-import { Nav } from "./components/common/nav.jsx"
+import { Navegador } from "./components/common/Navegador.jsx"
 import { Main } from "./components/common/Main.jsx"
 function App() {
   
 
   return (
     <>
-     <Nav></Nav>
+    <Navegador></Navegador>
      <Main></Main>
 
     </>

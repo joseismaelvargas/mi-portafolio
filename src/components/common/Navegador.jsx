@@ -1,6 +1,6 @@
 import { useState } from "react"
 import "./nav.css"
-export const Nav=()=>{
+export const Navegador=()=>{
 const [menu,setMenu]=useState(false)
 
 
