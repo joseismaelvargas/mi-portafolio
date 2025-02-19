@@ -1,7 +1,7 @@
 
 
-import { Nav } from "./components/common/nav"
-import { Main } from "./components/common/Main"
+import { Nav } from "./components/common/nav.jsx"
+import { Main } from "./components/common/Main.jsx"
 function App() {
   
 
