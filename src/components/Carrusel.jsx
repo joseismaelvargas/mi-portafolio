@@ -10,17 +10,15 @@ export const Carrusel=()=>{
     </p>
 
 
-    <button className="btn-learn mt-4 px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition duration-300">
-      Learn more
-    </button>
+  
 
-
+{/* 
     <div className="logos-container flex justify-center gap-4 mt-6">
       <img src="logo1.png" alt="Logo 1" className="h-12 w-12" />
       <img src="logo2.png" alt="Logo 2" className="h-12 w-12" />
       <img src="logo3.png" alt="Logo 3" className="h-12 w-12" />
       <img src="logo4.png" alt="Logo 4" className="h-12 w-12" />
-    </div>
+    </div> */}
   </div>
 
 

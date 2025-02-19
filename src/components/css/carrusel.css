@@ -11,6 +11,9 @@
     font-size: 25px;
     text-align: center;
 }
+.img-main{
+    width: 250px;
+}
 @media(min-width:768px){
     .title-name{
         color: brown;
