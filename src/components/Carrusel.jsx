@@ -24,20 +24,20 @@ const [animation,setAnimationKey]=useState(0)
     spaceBetween={30} 
     onSlideChange={() => setAnimationKey((prev) => prev + 1)}
     autoplay={{
-      delay:5000
+      delay:60000
   }}
   pagination={{
     clickable: true,
   }}
   loop={true}>
-      <SwiperSlide>
-  <div className="container mx-auto text-center">
+      <SwiperSlide className="divcontainer">
+  <div className="textos container mx-auto text-center">
   <motion.h2
   key={`h2-${animation}`}
 initial={{ opacity: 0, x: 100 }} 
 animate={{ opacity: 1, x: 0 }}     
   transition={{ duration: 1.5,delay: 0.5}}
-  className="title-name text-4xl font-bold text-white"
+  className="title-name "
 >
   Hola, Soy Ismael.
 </motion.h2>
@@ -74,10 +74,10 @@ animate={{ opacity: 1, x: 0 }}
       alt="Imagen principal"
     />
   </picture>
-  </SwiperSlide>
+  </SwiperSlide >
   {/* motion2 */}
-  <SwiperSlide>
-  <div className="container mx-auto text-center">
+  <SwiperSlide className="divcontainer">
+  <div className=" textos container mx-auto text-center">
   <motion.h2
    key={`h2-${animation}`}
 initial={{ opacity: 0, x: 100 }} 
@@ -122,8 +122,8 @@ animate={{ opacity: 1, x: 0 }}
     />
   </picture>
   </SwiperSlide>
-  <SwiperSlide>
-  <div className="container mx-auto text-center">
+  <SwiperSlide className="divcontainer">
+  <div className=" textos container mx-auto text-center">
   <motion.h2
    key={`h2-${animation}`}
 initial={{ opacity: 0, x: 100 }} 
