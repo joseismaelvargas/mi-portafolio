@@ -7,7 +7,7 @@ export const Herramientas=()=>{
         <>
         <br />
         <br />
-        <section>
+        <section className="seccion-Herramientas">
             <h1 className="title-herramientas text-center">MIS CONOCIMIENTOS:</h1>
 
             <div className="sm:mx-[150px] sm:my-10 grid grid-cols-1 sm:grid-cols-3  md:gap-0">
@@ -15,12 +15,12 @@ export const Herramientas=()=>{
               <div className="caj1">
                 <div className="dev">
                      <i  className="icon-He"><FaLaptopCode className="text-gray-500"></FaLaptopCode></i>
-              <h3 className="title-he">Desarollo de Software</h3>
+              <h3 className="title-pc">Desarollo de Software</h3>
                 
                 </div>
           
                 <p className="p-he">Experiencia tanto en programación funcional como orientada a objetos: Dart, Python, Java, JavaScript, TypeScript.</p>
-                <p className="ps-he text-center">Idiomas que hablo:</p>
+                <p className="ps-he text-center">Lenguajes de Programacion:</p>
                  <ul className="lista text-white">
                     <li>.JavaScript</li>
                     <li>.HTMl</li>
@@ -57,7 +57,7 @@ export const Herramientas=()=>{
              
               <div className="dev">
                      <i  className="icon-He "><MdOutlinePhoneIphone className="text-teal-600"></MdOutlinePhoneIphone></i>
-              <h3 className="title-he">Diseño Responsivo</h3>
+              <h3 className="title-iphone">Diseño Responsivo</h3>
                 
                 </div>
           
@@ -74,6 +74,10 @@ export const Herramientas=()=>{
                  </ul>
               </div>
             </div>
+            <div className="fondo">
+                  <img src="https://tamalsen.dev/wp-content/uploads/2021/12/hello-world-html-code-768x384.png" className="img" alt="" />
+            </div>
+         
             
         </section></>
     )

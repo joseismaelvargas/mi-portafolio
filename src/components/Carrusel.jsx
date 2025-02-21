@@ -12,6 +12,9 @@ export const Carrusel=()=>{
 const [animation,setAnimationKey]=useState(0)
  return(
     <>
+    <br />
+    <br />
+    <br />
 <section className="seccion">
    <Swiper
     modules={[ Navigation,Autoplay,Pagination]}

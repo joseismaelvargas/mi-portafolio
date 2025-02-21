@@ -1,3 +1,16 @@
+/* .seccion-Herramientas{
+ 
+    
+ 
+    height: 900px;
+} */
+.fondo{
+    width: 600px;
+    margin: -60px auto;
+   opacity: 0.3;
+    z-index: 1;
+}
+
 .title-herramientas{
     font-size: 3.4rem;
      color: white;
@@ -24,12 +37,30 @@
     font-weight: bold;
     font-size: 33px;
     color: rgb(255, 255, 255);
+    
+    border-bottom: 3px solid #3d7ddd; /* Color naranja */
+}
+.title-pc{
+    font-weight: bold;
+    font-size: 33px;
+    color: rgb(255, 255, 255);
+    
+    border-bottom: 3px solid #525258; /* Color naranja */
+}
+.title-iphone{
+    font-weight: bold;
+    font-size: 33px;
+    color: rgb(255, 255, 255);
+    
+    border-bottom: 3px solid #155315; /* Color naranja */
 }
 .p-he{
     color: white;
     font-size: 18px;
     margin: 0px 40px;
+  
 }
+ *
 .lista{
     font-weight: bold;
     font-size: 19px;
@@ -51,5 +82,8 @@
     .title-herramientas{
         font-size:45px;
     }
-  
+    .fondo{
+        width:400px;
+    }
+   
 }

@@ -5,7 +5,7 @@ const [menu,setMenu]=useState(false)
 
 
 return(
-        <nav className="bg-black border-2 sm:border-2">
+        <nav className="border-2 sm:border-2 ">
         <div className="mx-auto max-w-7xl  px-2 sm:px-6 lg:px-8 sm:py-5">
           <div className="relative flex h-16 items-center justify-between">
             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
