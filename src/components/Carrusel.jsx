@@ -8,12 +8,7 @@ import enfoque2 from"/img/enfoque2.png"
 import { useState } from "react";
 
 export const Carrusel=()=>{
-  // const ScroolSection=(id)=>{
-  //  const scroll=document.querySelector(id)
-  //  if(scroll){
-  //   scroll.scrollIntoView({ behavior: "smooth" });
-  //  }
-  
+ 
 const [animation,setAnimationKey]=useState(0)
  return(
     <>
