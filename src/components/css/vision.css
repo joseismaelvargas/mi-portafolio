@@ -14,23 +14,24 @@
     border: solid  3px rgba(253, 250, 255, 0.904);
     border-radius: 10px;
     margin: 15px;
-    height: 180px;
+    height: 200px;
     display: flex;
     color: white;
 }
 
 .span{
-    margin: auto 40px;
+    margin: auto 20px;
     border: solid 3px ;
     border-radius: 100%;
     padding: 30px 30px;
-    font-size: 2.6rem;
+    font-size: 2.0rem;
     font-weight: bold;
     color: rgb(253, 251, 251);
     background-color: rgb(0, 0, 0);
 }
 .textos{
     text-align: start;
+    
 }
 
 @media(min-width:768px){
@@ -44,5 +45,6 @@
     .caja{
         border: solid 2px;
         width: 500px;
+       
     }
 }
