@@ -14,7 +14,10 @@ const Filtrar = () => {
             <button onClick={()=>setFiltro(2)}>/Visualización de datos</button>
              <button onClick={()=>setFiltro(3)}>/Desarrollo web</button>
           </div>
-          {components}
+          <div className="div-filtro">
+            {components}
+          </div>
+          
     </div>
   )
 }
