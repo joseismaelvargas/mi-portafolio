@@ -2,6 +2,7 @@ import { Carrusel } from "../Carrusel"
 import { Vision } from "../Vision"
 import { Herramientas } from "../Herramientas"
 import { Trabajo } from "../Trabajo"
+import Filtrar from "../Filtrar"
 export const Main=()=>{
     return(
         <>
@@ -11,6 +12,7 @@ export const Main=()=>{
        <Herramientas></Herramientas>
        
        <Trabajo></Trabajo>
+       <Filtrar></Filtrar>
         </main>
         </>
     )

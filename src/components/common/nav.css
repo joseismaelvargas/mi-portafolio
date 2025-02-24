@@ -17,3 +17,44 @@ font-size: 30px;
 margin: 10px;
 cursor: pointer;
 }
+
+ /* footer */
+ .footer-title{
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    font-size: 1.6rem;
+    background-color: rgb(8, 8, 8);
+    color: white;
+ }
+ .footer{
+    background-color: black;
+    height: 300px;
+    width: 86vh;
+ }
+ .footer{
+    background-color: rgb(8, 8, 8);
+    display: flex;
+
+   flex-direction: column;
+
+    height: 200px;
+ }
+.copiriht{
+    text-align: center;
+    color: white;
+  
+    font-size: 20px;
+    background-color: rgb(8, 8, 8);
+    text-decoration: underline 5px rgb(143, 4, 143);
+    /* width: 100vh; */
+}
+
+.text-footer{
+    background-color: rgb(8, 8, 8);
+    color: white;
+    font-size: 1.0rem;
+    font-weight: bold;
+    margin: 0px 15px;
+    text-align: center;
+}
