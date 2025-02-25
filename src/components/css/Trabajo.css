@@ -9,15 +9,16 @@
 } 
 
 .title-soy{
-    margin: 50px;
+    margin: 20px;
     color: rgb(255, 255, 255);
-    font-size: 3.8rem;
-    border-bottom: 5px solid #11fa09;
+    font-size: 3.3rem;
+    border-bottom: 5px solid #468f45;
 }
 .p-soy{
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
+    margin: 0px 5px;
     text-align: center;
 }
 .filtro-header{
@@ -26,12 +27,20 @@
     justify-content: space-between;
     color: rgb(204, 199, 199);
     margin: 20px -2px;
-    font-size: 15px;
-    font-weight: 700;
+    font-size: 13px;
+    font-weight: 900;
     width: 100%;
 }
 .filtro-header>button{
     margin: 0px 5px;
+}
+/*  */
+.title-proyect{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    margin: 20px;
+    border-bottom: 5px solid #960ed4;
 }
 @media(min-width:768px){
     .img-soy{

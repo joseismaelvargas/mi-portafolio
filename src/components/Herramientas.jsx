@@ -7,7 +7,7 @@ export const Herramientas=()=>{
         <>
         <br />
         <br />
-        <section className="seccion-Herramientas">
+        <section className="seccion-Herramientas" id="Conocimientos">
             <h1 className="title-herramientas text-center">MIS CONOCIMIENTOS:</h1>
 
             <div className="sm:mx-[150px] sm:my-10 grid grid-cols-1 sm:grid-cols-3  md:gap-0">

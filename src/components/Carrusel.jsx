@@ -15,7 +15,7 @@ const [animation,setAnimationKey]=useState(0)
     <br />
     <br />
     <br />
-<section className="seccion">
+<section className="seccion" id="inicio">
    <Swiper
     modules={[ Navigation,Autoplay,Pagination]}
     slidesPerView={1} 

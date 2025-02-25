@@ -2,6 +2,7 @@
     text-decoration: none;
     font-size: 19px;
 }
+
 nav{
     position: fixed;
     width: 100%;
@@ -12,10 +13,11 @@ nav{
   
 
 }
-.divicon>i{
-font-size: 30px;
+
+i{
+  font-size: 30px;
 margin: 10px;
-cursor: pointer;
+cursor: pointer;  
 }
 
  /* footer */
@@ -23,14 +25,14 @@ cursor: pointer;
     font-weight: bold;
     text-align: center;
     margin: 20px;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     background-color: rgb(8, 8, 8);
     color: white;
  }
  .footer{
     background-color: black;
     height: 300px;
-    width: 86vh;
+    width: 100%;
  }
  .footer{
     background-color: rgb(8, 8, 8);
@@ -53,8 +55,8 @@ cursor: pointer;
 .text-footer{
     background-color: rgb(8, 8, 8);
     color: white;
-    font-size: 1.0rem;
+    font-size: 0.9rem;
     font-weight: bold;
-    margin: 0px 15px;
+    margin: 0px 0px;
     text-align: center;
 }
