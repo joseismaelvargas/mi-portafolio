@@ -3,6 +3,7 @@ import { Vision } from "../Vision"
 import { Herramientas } from "../Herramientas"
 import { Trabajo } from "../Trabajo"
 import Filtrar from "../Filtrar"
+import Formulario from "../Formulario"
 
 export const Main=()=>{
     return(
@@ -14,6 +15,7 @@ export const Main=()=>{
        
        <Trabajo></Trabajo>
        <Filtrar></Filtrar>
+       <Formulario></Formulario>
       
         </main>
         </>

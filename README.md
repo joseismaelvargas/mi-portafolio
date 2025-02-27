@@ -1,8 +1,27 @@
-# React + Vite
+💻 Mi Portafolio de Programación
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenido a mi portafolio web de programador! ✨ Aquí encontrarás proyectos en los que he trabajado, mis habilidades y experiencia en desarrollo web y programación.
 
-Currently, two official plugins are available:
+📚 Sobre Mí
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Soy un apasionado desarrollador web con experiencia en diversas tecnologías y frameworks. Me encanta construir aplicaciones funcionales, eficientes y con un diseño atractivo.
+
+📝 Tecnologías y Herramientas
+
+✨ Frontend: React.js, JavaScript (ES6+), HTML5, CSS3, TailwindCSS
+
+♻️ Backend: Node.js, Express.js
+
+📂 Bases de Datos: MongoDB, MySQL
+
+🛠️ Otras herramientas: Git, GitHub, Netlify, Vercel, Docker
+
+-Librerias utilisadas📕📕
+.email js
+.React-Form-Hook
+.Frame-motion
+.Swiper
+.mui/icons-material
+.react-router-dom
+.react-bootstrap bootstrap
+.sweetalert2

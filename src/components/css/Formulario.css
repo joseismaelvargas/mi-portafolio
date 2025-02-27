@@ -1,0 +1,40 @@
+.div-form{
+    display: flex;
+    justify-content: center;
+    border: solid;
+    width: 500px;
+ 
+}
+form>label{
+    color: white;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin: 5px;
+}
+form>input{
+    background-color: white;
+    border:  rgb(87, 84, 84) 2px solid;
+    border-radius: 10px;
+    height: 40px;
+    width: 240px;
+    
+}
+form>button{
+    background-color: white;
+    color: black;
+    margin: 10px;
+    padding: 10px 35px;
+    border-radius: 10px;
+    
+}
+form>textarea{
+    background-color: white;
+    border-radius: 10px;
+    width: 250px;
+    height: 70px;
+}
+.error{
+    color: rgb(141, 44, 44);
+    font-weight: 400;
+    margin: 1;
+}
