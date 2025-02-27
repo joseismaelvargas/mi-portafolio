@@ -29,8 +29,8 @@ const Formulario = () => {
       );
   }
   return (
-    <section >
-      <h2 className="text-center text-white">Contacto</h2>
+    <section id="Contacto" >
+      <h1 className="text-center text-white ">Contacto</h1>
     <div className="div-form">
       
       <form ref={form} onSubmit={handleSubmit(Sendemail)}>

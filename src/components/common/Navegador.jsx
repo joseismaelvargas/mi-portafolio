@@ -13,7 +13,7 @@ const Scroollid=(id)=>{
 return(
         <nav className="border-2 sm:border-2 ">
         <div className="mx-auto max-w-7xl  px-2 sm:px-6 lg:px-8 sm:py-5">
-          <div className="relative flex h-16 items-center justify-between">
+          <div className="relative flex h-10 items-center justify-between">
             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
           
               
@@ -34,7 +34,7 @@ return(
                
                 <NavLink className="rounded-md px-3 py-2 text-sm font-medium text-white " onClick={()=>Scroollid("#Conocimientos")}  end to="/#Conocimientos"><a >Conocimientos</a></NavLink> 
                 <NavLink className="rounded-md px-3 py-2 text-sm font-medium text-white"   onClick={()=>Scroollid("#proyectos")}  end to="/#proyectos"><a>Proyectos</a></NavLink>
-                  <NavLink className="rounded-md px-3 py-2 text-sm font-medium text-white" onClick={()=>Scroollid("#quiensoy")}  end to="/#quiensoy"> <a >Quien soy</a></NavLink>
+                  <NavLink className="rounded-md px-3 py-2 text-sm font-medium text-white" onClick={()=>Scroollid("#Contacto")}  end to="/#quiensoy"> <a >Contacto</a></NavLink>
                  
                 </div>
               </div>
@@ -58,7 +58,7 @@ return(
                
                <NavLink className="block rounded-md px-3 py-2 text-sm font-medium text-white " onClick={()=>Scroollid("#Conocimientos")}  end to="/#Conocimientos"><a >Conocimientos</a></NavLink> 
                <NavLink className="block rounded-md px-3 py-2 text-sm font-medium text-white"   onClick={()=>Scroollid("#proyectos")}  end to="/#proyectos"><a>Proyectos</a></NavLink>
-                 <NavLink className="block rounded-md px-3 py-2 text-sm font-medium text-white" onClick={()=>Scroollid("#quiensoy")}  end to="/#quiensoy"> <a >Quien soy</a></NavLink>
+                 <NavLink className="block rounded-md px-3 py-2 text-sm font-medium text-white" onClick={()=>Scroollid("#Contacto")}  end to="/#Contacto"> <a >Contacto</a></NavLink>
         
            
           </div>
