@@ -30,7 +30,7 @@ const Formulario = () => {
   }
   return (
     <section className="my-10" id="Contacto" >
-      <h1 className="text-center text-white ">Contacto</h1>
+      <h1 className="title-contacto text-center text-white ">Contacto...</h1>
     <div className="div-form">
       
       <form ref={form} onSubmit={handleSubmit(Sendemail)}>

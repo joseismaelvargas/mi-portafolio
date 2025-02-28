@@ -1,7 +1,7 @@
 .div-form{
     display: flex;
     justify-content: center;
-    border: solid;
+ 
     width: auto;
     /* margin: 0px -50px; */
     margin: 50px;
@@ -42,6 +42,12 @@ form>button{
     border-radius: 15px;
     
 }
+.form>button:hover{
+    background-color: blue;
+}
+.title-contacto{
+    font-size: 2.4rem;
+}
 form>textarea{
     background-color: white;
     border-radius: 10px;
@@ -49,7 +55,7 @@ form>textarea{
     height: 140px;
 }
 .error{
-    color: rgb(141, 44, 44);
+    color: rgb(218, 86, 86);
     font-weight: 400;
     margin: 1;
 }
