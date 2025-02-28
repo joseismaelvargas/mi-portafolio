@@ -1,7 +1,7 @@
 .seccion3{
    color: white;
 
-   border: white solid ;
+
 }
  .div-soy{
     color: #fff8f8;
@@ -48,8 +48,13 @@
     color: white;
     text-align: center;
     font-size: 3rem;
-    margin: 20px;
+    margin: 30px;
     border-bottom: 5px solid #960ed4;
+    transition: background-color 0.4s ease, border-radius 0.4s ease;
+}
+.title-proyect:hover{
+background-color: #960ed4;
+border-radius: 10px;
 }
 @media(min-width:768px){
     .img-soy{
@@ -58,6 +63,7 @@
     }
     .seccion3{
         display: flex;
+        margin: 0px;
     }
     .div-soy{
         width: 700px;

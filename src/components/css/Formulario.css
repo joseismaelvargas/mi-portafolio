@@ -17,9 +17,20 @@ form>input{
     background-color: white;
     border:  rgb(87, 84, 84) 2px solid;
     border-radius: 15px;
-    height: 50px;
+    height: 40px;
     width: 350px;
     
+}
+.modal-content{
+    background-color:rgb(26, 25, 25) ;
+}
+.modal-header{
+    background-color:rgb(26, 25, 25) ;
+    color: white;
+}
+.modal-header>button{
+    color: white;
+    cursor: pointer;
 }
 form>button{
     background-color: white;

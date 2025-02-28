@@ -1,37 +1,44 @@
+
 import { useForm } from "react-hook-form"
-import"../components/css/Formulario.css"
+// import"../components/css/Formulario.css"
+import "../css/Formulario.css"
 import { useRef } from "react";
 import emailjs from "@emailjs/browser"
-const Formulario = () => {
-  const { register, handleSubmit ,formState:{errors},reset,setValue} = useForm();
-  const form=useRef()
-  const Sendemail=()=>{
-    
-     emailjs
-      .sendForm('service_0hiib5a', 'template_ixeaf0s', form.current, {
-        publicKey: 'YsSHDf_TbSF18GkGC',
-      })
-      .then(
-        () => {
-          Swal.fire({
-            position: "top-center",
-            icon: "success",
-            title: "Email Enviado",
-            showConfirmButton: false,
-            timer: 1500
-          });
-         console.log('SUCCESS!');
-     reset()
-        },
-        (error) => {
-          console.log('FAILED...', error.text);
-        },
-      );
-  }
+const ModalForm = () => {
+    const { register, handleSubmit ,formState:{errors},reset,setValue} = useForm();
+    const form=useRef()
+    const Sendemail=()=>{
+      
+       emailjs
+        .sendForm('service_0hiib5a', 'template_ixeaf0s', form.current, {
+          publicKey: 'YsSHDf_TbSF18GkGC',
+        })
+        .then(
+          () => {
+            Swal.fire({
+              position: "top-center",
+              icon: "success",
+              title: "Email Enviado",
+              showConfirmButton: false,
+              timer: 1500
+            });
+           console.log('SUCCESS!');
+       reset()
+          },
+          (error) => {
+            console.log('FAILED...', error.text);
+          },
+        );
+    }
   return (
-    <section className="my-10" id="Contacto" >
-      <h1 className="text-center text-white ">Contacto</h1>
-    <div className="div-form">
+    <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog">
+  <div className="modal-header">
+        <h1 className="modal-title fs-5 text-center" id="exampleModalLabel">Solicitad Informacion</h1>
+        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+    <div className="modal-content">
+  
       
       <form ref={form} onSubmit={handleSubmit(Sendemail)}>
         <label htmlFor="">Nombre Completo</label><br />
@@ -68,11 +75,12 @@ const Formulario = () => {
          )}></textarea><br />
           {errors.mesaje&&<p className="error"> {errors.mensaje.message}</p>}
         
-        <button type="submit">Enviar Mensaje </button>
+        <button type="submit" >Enviar Mensaje </button>
       </form>
     </div>
-    </section>
+  </div>
+</div>
   )
 }
 
-export default Formulario
+export default ModalForm

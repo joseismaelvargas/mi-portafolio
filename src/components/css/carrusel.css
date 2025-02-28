@@ -26,15 +26,19 @@
   }
 .title-name{
     color: rgb(255, 255, 255);
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     font-weight: 300;
+    /* text-align: center; */
     margin: 30px;
 }
 .subtitle{
-    font-size: 1.5rem;
-
+    font-size: 1.2rem;
     text-align: center;
-}
+    font-weight: 400; 
+    color: #ffffff; 
+    margin: 10px 4px; 
+    max-width: 100%; 
+    line-height: 1.5; }
 .img-main{
     width: 250px;
 }
@@ -54,7 +58,16 @@
     color: white;
     font-weight: bold;
 }
+.solitud{
+    font-size: 22px;
+    color: rgb(25, 132, 255);
+    font-weight: 400;
+    cursor: pointer;
 
+}
+.solitud:hover{
+    color: rgb(34, 100, 221);
+}
 @media(min-width:768px){
     .divcontainer{
        display: flex;
