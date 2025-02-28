@@ -2,8 +2,9 @@
     display: flex;
     justify-content: center;
     border: solid;
-    width: 500px;
-    margin: 0px -50px;
+    width: auto;
+    /* margin: 0px -50px; */
+    margin: 50px;
  
 }
 form>label{
@@ -15,24 +16,26 @@ form>label{
 form>input{
     background-color: white;
     border:  rgb(87, 84, 84) 2px solid;
-    border-radius: 10px;
-    height: 40px;
-    width: 240px;
+    border-radius: 15px;
+    height: 50px;
+    width: 350px;
     
 }
 form>button{
     background-color: white;
     color: black;
-    margin: 10px;
-    padding: 10px 35px;
-    border-radius: 10px;
+    margin: 15px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 15px;
     
 }
 form>textarea{
     background-color: white;
     border-radius: 10px;
-    width: 250px;
-    height: 70px;
+    width: 310px;
+    height: 140px;
 }
 .error{
     color: rgb(141, 44, 44);

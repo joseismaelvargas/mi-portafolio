@@ -21,7 +21,7 @@ const Formulario = () => {
             timer: 1500
           });
          console.log('SUCCESS!');
-     reset()
+    //  reset()
         },
         (error) => {
           console.log('FAILED...', error.text);
@@ -29,7 +29,7 @@ const Formulario = () => {
       );
   }
   return (
-    <section id="Contacto" >
+    <section className="my-10" id="Contacto" >
       <h1 className="text-center text-white ">Contacto</h1>
     <div className="div-form">
       
@@ -68,7 +68,7 @@ const Formulario = () => {
          )}></textarea><br />
           {errors.mesaje&&<p className="error"> {errors.mensaje.message}</p>}
         
-        <button type="submit">Enviar</button>
+        <button type="submit">Enviar Mensaje </button>
       </form>
     </div>
     </section>

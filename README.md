@@ -16,12 +16,12 @@ Soy un apasionado desarrollador web con experiencia en diversas tecnologías y f
 
 🛠️ Otras herramientas: Git, GitHub, Netlify, Vercel, Docker
 
--Librerias utilisadas📕📕
-.email js
-.React-Form-Hook
-.Frame-motion
-.Swiper
-.mui/icons-material
-.react-router-dom
-.react-bootstrap bootstrap
-.sweetalert2
+Librerias utilisadas📕📕
+email js
+React-Form-Hook
+Frame-motion
+Swiper
+mui/icons-material
+react-router-dom
+react-bootstrap bootstrap
+sweetalert2
