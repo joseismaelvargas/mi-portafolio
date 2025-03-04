@@ -3,21 +3,25 @@
     justify-content: center;
  
     width: auto;
-    /* margin: 0px -50px; */
+
     margin: 50px;
  
 }
-form>label{
+
+.div-forminput>label{
     color: white;
     font-weight: 400;
     font-size: 1.2rem;
     margin: 5px;
 }
-form>input{
-    background-color: white;
-    border:  rgb(87, 84, 84) 2px solid;
-    border-radius: 15px;
+.div-forminput>input{
+    background-color:rgb(26, 25, 25) ;
+    
     height: 40px;
+    border-bottom: 3px solid #ac071d;
+   margin: 10px;
+    color: white;
+    outline: none;
     width: 350px;
     
 }
@@ -32,44 +36,176 @@ form>input{
     color: white;
     cursor: pointer;
 }
-form>button{
-    background-color: white;
-    color: black;
+.div-forminput>button{
+    background-color: rgb(180, 12, 12);
+    color: rgb(255, 252, 252);
     margin: 15px;
+    width: 100%;
+    
     padding: 10px 20px;
     font-weight: bold;
     font-size: 20px;
-    border-radius: 15px;
+ 
     
 }
-.form>button:hover{
-    background-color: blue;
+form >button:hover{
+    background-color: rgb(226, 36, 36);
 }
 .title-contacto{
     font-size: 2.4rem;
 }
-form>textarea{
-    background-color: white;
-    border-radius: 10px;
+.div-forminput>textarea{
+    background-color:rgb(26, 25, 25) ;
+
     width: 310px;
     height: 140px;
-}
+    border-bottom: 3px solid #ac071d;
+    outline: none;
+    color: white;
+} 
 .error{
     color: rgb(218, 86, 86);
     font-weight: 400;
     margin: 1;
 }
+.div-form-text{
+    background-color: black;
+    color:  white;
+    text-align: center;
+    padding: 20px;
+}
+
+.form-subtitle{
+    font-size: 27px;
+    font-weight: bold;
+    margin: 20px;
+}
+.text-form{
+    font-size: 22px;
+    text-align: center;
+
+}
+.gmail{
+    text-align: center;
+    margin: 30px auto;
+    transition: background-color 0.4s ease, border-radius 0.4s ease;
+    border-bottom: 5px solid #960ed4;
+    width: 220px;
+    font-size: 20px;
+}
+.gmail:hover{
+    background-color: #960ed4;
+    border-radius: 10px;
+}
+.contactame{
+    text-align: center; 
+    color: white;
+    font-size: 3rem;
+    
+}
+.section-form{
+    box-shadow: 1px 2px 5px 3px rgba(255, 255, 255, 0.5);
+}
 @media(min-width:768px){
+    form{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
     .div-form-text{
         background-color: black;
         color: white;
+
+        margin: 0px 0px;
+        width: 580px;
     }
+    .div-forminput>input{
+        width: 200px;
+        display: block;
+       
+        width: 280px;
+        border-radius: 2px;
+
+
+
+    }
+    .div-forminput{
+        margin: 20px;
+    }
+    .div-forminput>textarea{
+        height: 140px;
+        width: 550px;
+        
+      
+        margin: 0px 40px;
+       flex-direction: column;
+        /* border: solid 2px blue; */
+    }
+    .div-forminput>button{
+        
+
+        width:600px ;
+        height: 70px;
+        margin: 20px;
+        border-radius:0px ;
+    }
+    .div-2{
+        width: 400px;
+        margin: 20px 120px;
+      
+    }
+     
+     
     .section-form{
         display: flex;
+          width: 100%;
+          overflow-x: hidden;
+          /* margin: 0px 150px; */
+          /* border: #ac071d solid 3px; */
+        box-shadow: 1px 2px 3px 1px white;
         justify-content: center;
+        height: 750px;
+        overflow-y: hidden;
     }
     .title-contacto{
         text-align: center;
-        margin: 0px ;
+        margin: 10px ;
+    }
+    .form-subtitle{
+        font-size: 3rem;
+        text-align: start;
+        font-weight: bold;
+    }
+    .contactame{
+        text-align: center; 
+        color: white;
+        
+        font-size: 3rem;
+
+    }
+    
+    .text-form{
+        font-size: 23px;
+        margin: 20px 15px;
+        text-align: start;
+        font-weight: 600;
+    }
+    .gmail{
+        margin: 30px 15px;
+        text-align: start;
+        transition: background-color 0.4s ease, border-radius 0.4s ease;
+        border-bottom: 5px solid #960ed4;
+        width: 350px;
+        font-size: 1.5rem;
+    }
+    .div-2>h3{
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
+        margin: 10px -20px;
+    }
+    .gmail:hover{
+        background-color: #960ed4;
+        border-radius: 10px;
     }
 }
