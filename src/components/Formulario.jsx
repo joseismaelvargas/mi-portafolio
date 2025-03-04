@@ -29,10 +29,17 @@ const Formulario = () => {
       );
   }
   return (
-    <section className="my-10" id="Contacto" >
-      <h1 className="title-contacto text-center text-white ">Contacto...</h1>
+    <section className="section-form my-10" id="Contacto" >
+      <div className="div-form-text">
+      <h2 className="footer-title">Disponible para oportunidades independientes seleccionadas</h2>
+                  <p className="text-footer">¿Tienes un proyecto interesante con el que necesitas ayuda? ¡
+                Envíame un correo electrónico o contáctame por mensaje instantáneo!</p>
+               <h3 className="copiriht">i00934562@gmail.com</h3>
+      </div>
+
     <div className="div-form">
-      
+            <h1 className="title-contacto  text-white ">Contacto...</h1>
+         
       <form ref={form} onSubmit={handleSubmit(Sendemail)}>
         <label htmlFor="">Nombre Completo</label><br />
         <input type="text"  {...register("nombre",

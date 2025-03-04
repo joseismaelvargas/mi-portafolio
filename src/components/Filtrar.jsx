@@ -12,8 +12,10 @@ const Filtrar = () => {
       <h3 className="title-proyect">Mis Proyectos</h3>
           <div className="filtro-header">
             <button onClick={()=>setFiltro(1)}>Filtrar porTodo</button>
-            <button onClick={()=>setFiltro(2)}>/Visualización de datos</button>
-             <button onClick={()=>setFiltro(3)}>/Desarrollo web</button>
+            <p>/</p>
+            <button onClick={()=>setFiltro(2)}>Visualización de datos</button>
+            <p>/</p>
+             <button onClick={()=>setFiltro(3)}>Desarrollo web</button>
           </div>
           <div className="div-filtro">
             {components}

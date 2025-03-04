@@ -59,3 +59,17 @@ form>textarea{
     font-weight: 400;
     margin: 1;
 }
+@media(min-width:768px){
+    .div-form-text{
+        background-color: black;
+        color: white;
+    }
+    .section-form{
+        display: flex;
+        justify-content: center;
+    }
+    .title-contacto{
+        text-align: center;
+        margin: 0px ;
+    }
+}

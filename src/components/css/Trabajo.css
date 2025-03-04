@@ -1,7 +1,7 @@
 .seccion3{
    color: white;
 
-
+    margin: 30px ; 
 }
  .div-soy{
     color: #fff8f8;
@@ -16,18 +16,20 @@
     margin: 20px;
     color: rgb(255, 255, 255);
     font-size: 3.3rem;
-    border-bottom: 5px solid #56b955;
+    border-bottom: 3px solid #56b955;
     transition: background-color 0.4s ease, border-radius 0.4s ease;
+        font-size: 5rem;
 }
 .title-soy:hover{
     background-color: #56b955;
     border-radius: 5px;
+
 }
 .p-soy{
     color: white;
-    font-size: 22px;
+    font-size: 27px;
     font-weight: 500;
-    margin: 40px 5px;
+    margin: 40px 0px;
     text-align: start;
 }
 .filtro-header{
@@ -48,7 +50,8 @@
     color: white;
     text-align: center;
     font-size: 3rem;
-    margin: 30px;
+    width: 360px;
+    margin: 70px auto;
     border-bottom: 5px solid #960ed4;
     transition: background-color 0.4s ease, border-radius 0.4s ease;
 }
@@ -56,10 +59,24 @@
 background-color: #960ed4;
 border-radius: 10px;
 }
+.div-filtro{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
 @media(min-width:768px){
+    .div-filtro{
+        margin: 50px 30px;
+    }
     .img-soy{
         width: 500px;
         
+    }
+    .title-soy{
+        margin: 0px 39px;
+        width: 400px;
+        border-bottom: 5px solid #56b955;
     }
     .seccion3{
         display: flex;
@@ -68,10 +85,28 @@ border-radius: 10px;
     .div-soy{
         width: 700px;
       
-        border: solid 2px wheat;
+        /* border: solid 2px wheat; */
     }
     .p-soy{
         text-align: start;
         margin: 0px 40px;
     }
+    .filtro-header{
+        justify-content: start;
+        margin: 0px 20px;
+    }
+    .filtro-header>button{
+        font-weight: bold;
+        font-size: 18px;
+        margin: 0px 10px;
+    }
+    .filtro-header>p{
+        font-weight: bold;
+        font-size: 20px;
+        margin: 0px 10px;
+    }
+    .filtro-header>button:hover{
+        color: #960ed4;
+    }
+    
 }

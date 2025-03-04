@@ -16,3 +16,10 @@
 .img-filtro{
     border-radius: 10px;
 }
+@media(min-width:768px){
+    .item{
+      width: 370px ;
+     height: auto;
+     margin: 20px;
+    }
+}
