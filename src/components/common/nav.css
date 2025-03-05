@@ -51,7 +51,10 @@ cursor: pointer;
     text-decoration: underline 5px rgb(143, 4, 143);
     /* width: 100vh; */
 }
-
+.copirigtn{
+    color: white;
+    text-align: center;
+}
 .text-footer{
     background-color: rgb(8, 8, 8);
     color: white;

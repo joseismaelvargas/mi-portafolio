@@ -15,7 +15,7 @@ export const Main=()=>{
        <Herramientas></Herramientas>
        
        <Trabajo></Trabajo>
-       {/* <Filtrar></Filtrar> */}
+       <Filtrar></Filtrar>
        <Formulario></Formulario>
       
         </main>

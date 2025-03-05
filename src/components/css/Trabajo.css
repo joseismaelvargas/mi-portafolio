@@ -13,23 +13,27 @@
 } 
 
 .title-soy{
-    margin: 20px;
+    margin: 10px;
+    font-weight: bold;
     color: rgb(255, 255, 255);
-    font-size: 3.3rem;
-    border-bottom: 3px solid #56b955;
+    font-size: 3.2rem;
+    /* border-bottom: 3px solid #610005; */
     transition: background-color 0.4s ease, border-radius 0.4s ease;
-        font-size: 5rem;
+      
 }
-.title-soy:hover{
-    background-color: #56b955;
+/* .title-soy:hover{
+    background-color: #8f030a;
     border-radius: 5px;
 
-}
+} */
 .p-soy{
     color: white;
-    font-size: 27px;
+    font-size: 21px;
+  
+    width: auto;
+    height: auto;
     font-weight: 500;
-    margin: 40px 0px;
+    margin: 20px -30px;
     text-align: start;
 }
 .filtro-header{
@@ -52,11 +56,11 @@
     font-size: 3rem;
     width: 360px;
     margin: 70px auto;
-    border-bottom: 5px solid #960ed4;
+    border-bottom: 5px solid #692be0;
     transition: background-color 0.4s ease, border-radius 0.4s ease;
 }
 .title-proyect:hover{
-background-color: #960ed4;
+background-color: #692be0;
 border-radius: 10px;
 }
 .div-filtro{
@@ -75,12 +79,13 @@ border-radius: 10px;
     }
     .title-soy{
         margin: 0px 39px;
-        width: 400px;
-        border-bottom: 5px solid #56b955;
+        width: 350px;
+        font-size: 3.8rem;
+        border-bottom: 5px solid #c50727;
     }
     .seccion3{
         display: flex;
-        margin: 0px;
+        margin: 0px 60px;
     }
     .div-soy{
         width: 700px;
@@ -88,8 +93,9 @@ border-radius: 10px;
         /* border: solid 2px wheat; */
     }
     .p-soy{
+        font-size: 1.6rem;
         text-align: start;
-        margin: 0px 40px;
+        margin: 15px 40px;
     }
     .filtro-header{
         justify-content: start;
