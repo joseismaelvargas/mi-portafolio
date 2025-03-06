@@ -1,28 +1,35 @@
-
+import { motion } from "framer-motion";
 import"./filtros.css"
 const Filtro3 = () => {
   return (
     <>
-    <div className="item">
+    <motion.div className="item"
+    initial={{ opacity: 0, x: 100, scale: 0.1 }} 
+    animate={{ opacity: 1, x: 0, scale: 1 }}     
+    transition={{ duration: 0.5, delay: 0.1 }} 
+    >
    <img src="https://tamalsen.dev/wp-content/uploads/2021/10/khora-urban-thinkers-poster-r.jpg" alt="img" className="img-filtro" />
       <h3>Flight Local (Solución de viajes B2B)</h3>
       <p>Desarollo web</p>
-    </div>
-    <div className="item">
+    </motion.div>
+    <motion.div className="item"
+    initial={{ opacity: 0, x: 100, scale: 0.1 }} 
+    animate={{ opacity: 1, x: 0, scale: 1 }}     
+    transition={{ duration: 0.5, delay: 0.1 }} 
+    >
    <img src="https://tamalsen.dev/wp-content/uploads/2021/10/khora-urban-thinkers-poster-r.jpg" alt="img" className="img-filtro" />
       <h3>Flight Local (Solución de viajes B2B)</h3>
       <p>Desarollo web</p>
-    </div>
-    <div className="item">
+    </motion.div>
+    <motion.div className="item"
+    initial={{ opacity: 0, x: 100, scale: 0.1 }} 
+    animate={{ opacity: 1, x: 0, scale: 1 }}     
+    transition={{ duration: 0.5, delay: 0.1 }} 
+    >
    <img src="https://tamalsen.dev/wp-content/uploads/2021/10/khora-urban-thinkers-poster-r.jpg" alt="img" className="img-filtro" />
       <h3>Flight Local (Solución de viajes B2B)</h3>
       <p>Desarollo web</p>
-    </div>
-    <div className="item">
-   <img src="https://tamalsen.dev/wp-content/uploads/2021/10/khora-urban-thinkers-poster-r.jpg" alt="img" className="img-filtro" />
-      <h3>Flight Local (Solución de viajes B2B)</h3>
-      <p>Desarollo web</p>
-    </div>
+    </motion.div>
     </>
   )
 }

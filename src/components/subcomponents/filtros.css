@@ -1,8 +1,9 @@
 .item{
     color: white;
   
-    margin: 10px 10px;
+    margin: 10px 17px;
     border-radius: 10px;
+
     background-color: rgb(51, 52, 53);
 }
 .item>h3{

@@ -9,13 +9,14 @@ const Filtrar = () => {
     const components=Filtro==1?<Filtro1></Filtro1>:Filtro==2?<Filtro2></Filtro2>:Filtro==3?<Filtro3></Filtro3>:null
   return (
     <div id="proyectos">
-      <h3 className="title-proyect">Mis Proyectos</h3>
+      {/* <h3 className="title-proyect">Mis Proyectos</h3> */}
           <div className="filtro-header">
-            <button onClick={()=>setFiltro(1)}>Filtrar porTodo</button>
+            
+            <button onClick={()=>setFiltro(1)} className={`${Filtro==1?"btn-filtro":""}`}>Filtrar porTodo</button>
             <p>/</p>
-            <button onClick={()=>setFiltro(2)}>Visualización de datos</button>
+            <button onClick={()=>setFiltro(2)} className={`${Filtro==2?"btn-filtro":""}`}>Visualización de datos</button>
             <p>/</p>
-             <button onClick={()=>setFiltro(3)}>Desarrollo web</button>
+             <button onClick={()=>setFiltro(3)} className={`${Filtro==3?"btn-filtro":""}`}>Desarrollo web</button>
           </div>
           <div className="div-filtro">
             {components}

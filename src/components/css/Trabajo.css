@@ -69,9 +69,17 @@ border-radius: 10px;
     flex-wrap: wrap;
 
 }
+.filtro-header>p{
+    margin: 0px;
+    font-size: 22px;
+}
+.btn-filtro{
+    color: #a82ee0;
+}
 @media(min-width:768px){
     .div-filtro{
-        margin: 50px 30px;
+        margin: 50px 50px;
+        
     }
     .img-soy{
         width: 500px;
@@ -99,15 +107,17 @@ border-radius: 10px;
     }
     .filtro-header{
         justify-content: start;
-        margin: 0px 20px;
+        margin: 20px 100px;
+        /* border: solid red 3px; */
+        width: 600px;
     }
     .filtro-header>button{
-        font-weight: bold;
+        font-weight: 600;
         font-size: 18px;
-        margin: 0px 10px;
+        margin: 0px 6px;
     }
     .filtro-header>p{
-        font-weight: bold;
+        font-weight: 800;
         font-size: 20px;
         margin: 0px 10px;
     }
