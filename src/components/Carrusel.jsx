@@ -63,14 +63,7 @@ animate={{ opacity: 1, x: 0 }}
 
 
   <picture className="imagenes-container mt-6">
-    {/* <source 
-      srcSet={enfoque2}
-      media="(max-width:639px)" 
-    />
-    <source 
-      srcSet={enfoque2}
-      media="(min-width:640px)" 
-    /> */}
+   
     <motion.img 
      key={`img-${animation}`}
      initial={{ opacity: 0, x:100 }}
@@ -111,21 +104,14 @@ animate={{ opacity: 1, x: 0 }}
   </div>
 
 
-  <picture className="imagenes-container mt-6">
-    {/* <source 
-      srcSet={imgresponsive}
-      media="(max-width:639px)" 
-    />
-    <source 
-      srcSet={imgresponsive} 
-      media="(min-width:640px)" 
-    /> */}
+  <picture className="imagenes-container ">
+  
     <motion.img 
      key={`img-${animation}`}
      initial={{ opacity: 0, x:100 }}
      animate={{ opacity: 1, x: 0 }}
      transition={{ duration: 1.5,delay: 0.5}}
-      className="img-main " 
+      className="img2 " 
       src={imgresponsive}
       alt="Imagen principal"
     />
@@ -159,22 +145,15 @@ animate={{ opacity: 1, x: 0 }}
   </div>
 
 
-  <picture className="imagenes-container mt-6">
-    {/* <source 
-      srcSet={enfoque}
-      media="(max-width:639px)" 
-    />
-    <source 
-      srcSet={enfoque} 
-      media="(min-width:640px)" 
-    /> */}
+  <picture className="imagenes-container ">
+  
     <motion.img 
      key={`img-${animation}`}
      initial={{ opacity: 0, x:100 }}
      animate={{ opacity: 1, x: 0 }}
      transition={{ duration: 1.5,delay: 0.5}}
-      className="img-main " 
-      src={enfoque}
+      className="img3 " 
+      src={enfoque2}
       alt="Imagen principal"
     />
   </picture>

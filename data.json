@@ -1,0 +1,21 @@
+
+{
+    "proyectos":[
+        {
+            "id":"001",
+            "nombre":"Proyecto Pixel",
+            "tipo":"Desarollo web",
+            "link":"https://app.netlify.com/sites/pixelxd/overview",
+            "img":{}
+
+        },
+        {
+            "id":"002",
+            "nombre":"Ecomert Carrito ",
+            "tipo":"Desarollo web",
+            "link":"https://ecomertproject.netlify.app/"
+
+        }
+
+    ]
+}
