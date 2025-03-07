@@ -92,7 +92,7 @@ animate={{ opacity: 1, x: 0 }}
   transition={{ duration: 1.5,delay: 0.5}}l
   className="title-name text-4xl font-bold text-white"
 >
-  Aplicaciones A Medidas
+  Aplicaciones A <strong className="text-red-700">Medidas</strong>
 </motion.h2>
 
     <motion.p 
@@ -125,7 +125,7 @@ animate={{ opacity: 1, x: 0 }}
      initial={{ opacity: 0, x:100 }}
      animate={{ opacity: 1, x: 0 }}
      transition={{ duration: 1.5,delay: 0.5}}
-      className="img-main w-full max-w-sm mx-auto rounded-lg shadow-lg" 
+      className="img-main " 
       src={imgresponsive}
       alt="Imagen principal"
     />
@@ -140,7 +140,7 @@ animate={{ opacity: 1, x: 0 }}
   transition={{ duration: 1.5,delay: 0.5}}l
   className="title-name text-4xl font-bold text-white"
 >
-  Enfoque Creativo
+  Enfoque <strong className="text-red-700">Creativo</strong>
 </motion.h2>
 
     <motion.p 
@@ -173,7 +173,7 @@ animate={{ opacity: 1, x: 0 }}
      initial={{ opacity: 0, x:100 }}
      animate={{ opacity: 1, x: 0 }}
      transition={{ duration: 1.5,delay: 0.5}}
-      className="img-main w-full max-w-sm mx-auto rounded-lg shadow-lg" 
+      className="img-main " 
       src={enfoque}
       alt="Imagen principal"
     />
