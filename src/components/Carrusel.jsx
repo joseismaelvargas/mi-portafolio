@@ -35,7 +35,7 @@ const [animation,setAnimationKey]=useState(0)
   }}
   loop={true}>
       <SwiperSlide className="divcontainer">
-  <div className="textos container mx-auto text-center">
+  <div className="textos container text-center">
   <motion.h2
   key={`h2-${animation}`}
 initial={{ opacity: 0, x: 100 }} 
@@ -43,7 +43,7 @@ animate={{ opacity: 1, x: 0 }}
   transition={{ duration: 1.5,delay: 0.5}}
   className="title-name "
 >
-  Hola, Soy Ismael.
+  Hola,Soy <strong className="text-red-700">  Ismael.</strong>
 </motion.h2>
 
     <motion.p    key={`p-${animation}`}initial={{ opacity: 0, x:100 }}
@@ -63,21 +63,21 @@ animate={{ opacity: 1, x: 0 }}
 
 
   <picture className="imagenes-container mt-6">
-    <source 
+    {/* <source 
       srcSet={enfoque2}
       media="(max-width:639px)" 
     />
     <source 
       srcSet={enfoque2}
       media="(min-width:640px)" 
-    />
+    /> */}
     <motion.img 
      key={`img-${animation}`}
      initial={{ opacity: 0, x:100 }}
      animate={{ opacity: 1, x: 0 }}
      transition={{ duration: 1.5,delay: 0.5}}
-      className="img1 w-full max-w-sm mx-auto rounded-lg shadow-lg" 
-      src={enfoque2} 
+      className="img1 " 
+      src="https://tse1.mm.bing.net/th?id=OIP.X3EnDakG5iniM0wcDRDY5AHaHa&pid=Api&P=0&h=180" 
       alt="Imagen principal"
     />
   </picture>
@@ -112,14 +112,14 @@ animate={{ opacity: 1, x: 0 }}
 
 
   <picture className="imagenes-container mt-6">
-    <source 
+    {/* <source 
       srcSet={imgresponsive}
       media="(max-width:639px)" 
     />
     <source 
       srcSet={imgresponsive} 
       media="(min-width:640px)" 
-    />
+    /> */}
     <motion.img 
      key={`img-${animation}`}
      initial={{ opacity: 0, x:100 }}
@@ -160,14 +160,14 @@ animate={{ opacity: 1, x: 0 }}
 
 
   <picture className="imagenes-container mt-6">
-    <source 
+    {/* <source 
       srcSet={enfoque}
       media="(max-width:639px)" 
     />
     <source 
       srcSet={enfoque} 
       media="(min-width:640px)" 
-    />
+    /> */}
     <motion.img 
      key={`img-${animation}`}
      initial={{ opacity: 0, x:100 }}

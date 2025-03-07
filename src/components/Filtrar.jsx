@@ -3,6 +3,7 @@ import Filtro1 from "./subcomponents/Filtro1"
 import Filtro2 from "./subcomponents/Filtro2"
 import Filtro3 from "./subcomponents/Filtro3"
 import"../components/css/Trabajo.css"
+
 const Filtrar = () => {
     const[Filtro,setFiltro]=useState(1)
     console.log(Filtro)
