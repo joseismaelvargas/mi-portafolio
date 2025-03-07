@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import proyecto2 from"/img/proyecto2.png"
 import proyecto1 from"/img/proyecto1.png"
 import proyecto3 from"/img/proyecto3.png"
+import proyecto4 from"/img/proyecto4.png"
 import"./filtros.css"
 
 const Filtro1 = () => {
@@ -27,6 +28,13 @@ const Filtro1 = () => {
       tipo: "Desarrollo web",
       link: "https://calm-semifreddo-973c11.netlify.app/",
       img: proyecto3, 
+  },
+  {
+    id: "004",
+      nombre: "Lista de Tareas",
+      tipo: "Desarrollo web",
+      link: "https://appnoted.netlify.app/",
+      img: proyecto4,
   }
 ];
   return (

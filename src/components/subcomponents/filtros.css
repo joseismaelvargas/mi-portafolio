@@ -4,15 +4,15 @@
     margin: 10px 17px;
     border-radius: 10px;
 
-    background-color: rgb(51, 52, 53);
+    background-color: rgb(17, 17, 17);
 }
 .item>h3{
     margin: 20px 20px;
-    background-color: rgb(51, 52, 53);
+    background-color: rgb(17, 17, 17);
 }
 .item>p{
     margin: 20px 20px;
-    background-color: rgb(51, 52, 53);
+    background-color: rgb(17, 17, 17);
 }
 .img-filtro{
     border-radius: 10px;
