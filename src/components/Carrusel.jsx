@@ -28,7 +28,7 @@ const [animation,setAnimationKey]=useState(0)
     spaceBetween={30} 
     onSlideChange={() => setAnimationKey((prev) => prev + 1)}
     autoplay={{
-      delay:60000
+      delay:5000
   }}
   pagination={{
     clickable: true,

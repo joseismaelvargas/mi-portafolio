@@ -9,7 +9,7 @@ export const Vision=()=>{
             <div className="box-father">
                 <div className="caja">
                     <span className="span">01</span>
-                   <div className="textos">
+                   <div >
                     <h1>Vision</h1>
                     <p>Ser un referente tecnológico y conformar un equipo de profesionales altamente cualificados y siempre al día en las soluciones tecnológicas.</p>
                    </div>

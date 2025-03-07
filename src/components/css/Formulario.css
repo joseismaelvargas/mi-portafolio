@@ -85,11 +85,7 @@ form >button:hover{
     color: rgb(248, 240, 255);
  
 }
-.modal{
-align-items: center;
-justify-content: center;
 
-}
 .text-form{
     font-size: 22px;
     text-align: center;
@@ -167,7 +163,12 @@ justify-content: center;
         margin: 20px 120px;
       
     }
-     
+    .modal-header{
+        width: 690px;
+    }
+     .modal-content{
+        width: 690px;
+     }
      
     .section-form{
         display: flex;

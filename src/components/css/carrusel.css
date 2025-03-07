@@ -78,14 +78,16 @@
        
     }
     .btn-carrusel{
-        margin: 0px 0px;
-   
-        padding: 11px 10px;
+
+       border: solid rgb(156, 0, 26) 4px ;
+       margin: 0px 0px 500px  -290px;
+        padding: 14px 15px;
         font-weight: bold;
+        font-size: 22px;
     }
     .textos{
         width: 500px;
-       margin: 0px;
+       margin: 50px;
     
     }  
     .imagenes-container{
@@ -100,7 +102,7 @@
     .title-name{
         text-align: start;
         color: rgb(255, 251, 251);
-        font-size: 4.5rem;
+        font-size: 4.8rem;
         font-weight: 500;
         margin: 0px -1px;
     }
