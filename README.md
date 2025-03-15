@@ -6,13 +6,11 @@ Bienvenido a mi portafolio web de programador! ✨ Aquí encontrarás proyectos 
 
 Soy un apasionado desarrollador web con experiencia en diversas tecnologías y frameworks. Me encanta construir aplicaciones funcionales, eficientes y con un diseño atractivo.
 
-📝 Tecnologías y Herramientas
+📝 Tecnologías y Herramientas usadas
 
-✨ Frontend: React.js, JavaScript (ES6+), HTML5, CSS3, TailwindCSS
+✨ Frontend: React.js, JavaScript (ES6+), HTML5, CSS3, TailwindCSS,Google font
 
-♻️ Backend: Node.js, Express.js
 
-📂 Bases de Datos: MongoDB, MySQL
 
 🛠️ Otras herramientas: Git, GitHub, Netlify, Vercel, Docker
 
@@ -25,3 +23,5 @@ mui/icons-material
 react-router-dom
 react-bootstrap bootstrap
 sweetalert2
+react-intersection-observer
+

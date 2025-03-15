@@ -5,6 +5,7 @@ import proyecto2 from"/img/proyecto2.png"
 import proyecto1 from"/img/proyecto1.png"
 import proyecto3 from"/img/proyecto3.png"
 import proyecto4 from"/img/proyecto4.png"
+import proyecto5 from"/img/proyecto5.png"
 import"./filtros.css"
 
 const Filtro1 = () => {
@@ -35,7 +36,22 @@ const Filtro1 = () => {
       tipo: "Desarrollo web",
       link: "https://appnoted.netlify.app/",
       img: proyecto4,
-  }
+  },
+  {
+    id: "005",
+    nombre: "Proyecto hotel",
+    tipo: "Desarrollo web FullStack",
+    link: "https://stramingmusic.netlify.app/",
+    img: proyecto5,
+  },
+  {
+    id: "006",
+    nombre: "Streaming De Musica ",
+    tipo: "Desarrollo web FullStack",
+    link: "https://campoverdecom.netlify.app/",
+    img: null,
+  },
+
 ];
   return (
     <>
