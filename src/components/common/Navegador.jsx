@@ -22,7 +22,7 @@ return(
         </button>
             </div>
              <div className="flex shrink-0 items-center mx-[20px]">
-                   {/* <h4 className="sm:text-white h-8 w-auto ">Ismael Vargas</h4> */}
+                  
                 </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-center">
              
