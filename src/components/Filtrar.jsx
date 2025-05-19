@@ -15,7 +15,7 @@ const Filtrar = () => {
             
             <button onClick={()=>setFiltro(1)} className={`${Filtro==1?"btn-filtro":""}`}>Todos los Proyectos</button>
             <p>/</p>
-            <button onClick={()=>setFiltro(2)} className={`${Filtro==2?"btn-filtro":""}`}>Visualización de datos</button>
+            <button onClick={()=>setFiltro(2)} className={`${Filtro==2?"btn-filtro":""}`}>Full-Stack</button>
             <p>/</p>
              <button onClick={()=>setFiltro(3)} className={`${Filtro==3?"btn-filtro":""}`}>Desarrollo web</button>
           </div>

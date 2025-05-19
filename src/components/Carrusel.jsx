@@ -4,8 +4,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 import { Navigation, Autoplay ,Pagination} from 'swiper/modules'; 
 import imgresponsive from"/img/responsive.png"
-import enfoque from"/img/enfoque.png"
+
 import enfoque2 from"/img/enfoque2.png"
+import isma from"/img/ismael.jpg"
 import { useState } from "react";
 
 export const Carrusel=()=>{
@@ -70,7 +71,7 @@ animate={{ opacity: 1, x: 0 }}
      animate={{ opacity: 1, x: 0 }}
      transition={{ duration: 1.5,delay: 0.5}}
       className="img1 " 
-      src="https://tse1.mm.bing.net/th?id=OIP.X3EnDakG5iniM0wcDRDY5AHaHa&pid=Api&P=0&h=180" 
+      src={isma}
       alt="Imagen principal"
     />
   </picture>
